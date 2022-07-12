@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Titillium+Web:wght@400;700&display=swap%27');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-container {
+  background-color: rgb(101, 249, 249);
+  width: 100vw;
+  height: 100vh;
+  color: rgb(6, 6, 156);
+  /* position: relative; */
+}
+
+.row {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-main {
+  width: 100vw;
+  height: 65vh;
+}
+
+.col {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-2 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.row-w-btns {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin {
+  width: 6vw;
+  height: 10vh;
+  background-color: transparent;
+}
